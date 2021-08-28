@@ -12,5 +12,8 @@ public class NewTest {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("http://www.google.com");
+		
+		driver.get("http://www.yahoo.com");
+
   }
 }
