@@ -8,6 +8,7 @@ public class NewTest {
 	  String exePath = "./driver/chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", exePath);
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://www.google.com");
+		
+		driver.get("http://www.cooltesters.com");
   }
 }
